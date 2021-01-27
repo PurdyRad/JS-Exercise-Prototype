@@ -111,10 +111,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. Global Binding-
-    2. Implicit Binding-
-    3. New Binding-
-    4. Explicit Binding-
+    1. Window Binding- If there are no other applicable rules 'this' defaults to the window.
+    2. Implicit Binding- Whenever a function is called by a preceding dot, the object to the left of the dot is 'this'.
+    3. New Binding- If a constructor function is used 'this' refers to the specific instance of the object that is created/returned by said  constructor function
+    4. Explicit Binding- Whenever JavaScript's .call/.apply/.bind method is used 'this' is explicity defined.
   */
   
   
